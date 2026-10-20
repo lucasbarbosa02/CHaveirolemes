@@ -1,0 +1,6 @@
+{
+  "name": "Chaveiro Lemes | Goiânia",
+  "description": "Chaveiro Lemes em Goiânia — Cópias de chaves, chaveiro residencial e automotivo, chaves codificadas e fechaduras digitais. Plantão até meia-noite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

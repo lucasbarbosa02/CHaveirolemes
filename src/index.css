@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-deep: #090B0E;
+    --bg-graphite: #12161B;
+    --bg-surface: #1B2128;
+    --bg-surface-elevated: #222A33;
+    --text-primary: #F4F6F8;
+    --text-muted: #8C969F;
+    --border-subtle: rgba(255, 255, 255, 0.08);
+    --border-amber: rgba(217, 164, 65, 0.4);
+    --amber-primary: #D9A441;
+    --amber-glow: rgba(217, 164, 65, 0.15);
+    --whatsapp: #25D366;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    background-color: var(--bg-deep);
+    color: var(--text-primary);
+    overflow-x: hidden;
+  }
+}
+
+/* Subtle amber metallic gradient highlights */
+.bg-amber-metallic {
+  background: linear-gradient(135deg, #E6BA5E 0%, #D9A441 50%, #B88528 100%);
+}
+
+.text-amber-metallic {
+  background: linear-gradient(135deg, #F3D288 0%, #D9A441 50%, #C4902F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-metallic {
+  border-color: rgba(217, 164, 65, 0.25);
+}
+
+.card-dark {
+  background: #12161B;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-dark:hover {
+  border-color: rgba(217, 164, 65, 0.35);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5), 0 0 20px -5px rgba(217, 164, 65, 0.08);
+}
